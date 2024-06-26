@@ -1,0 +1,237 @@
+<!--Building Each portion of the webpage separately and then combining them together at the end!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/under-header.css">
+  <link rel="stylesheet" href="styles/where-are-alumni.css">
+  <link rel="stylesheet" href="styles/learnmore.css">
+  <link rel="stylesheet" href="styles/benjamin-alloway.css">
+
+  <style>
+    .left{
+      width: 0;
+    }
+    .right{
+      width: 800px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .big-container{
+    }
+    .gray-container{
+      background-color: rgb(240, 240, 240);
+    }
+    .news-container{ /*use flex-end to make the inside container(gray be underneath the image*/
+      display: flex;
+      align-items: flex-end;
+      background-color: gray;
+      width: 80%;
+      height: 100%;
+      border: solid;
+      border-radius: 20px;
+      background-image: url("news-container.jpg");
+      background-position: top;
+      background-size: 100%;
+      background-position: center -75px; /*Moves the background image position up*/  
+    }
+    .inside-container{
+      display: flex;
+      flex-direction: column;
+      background-color: gray;
+      padding-top: 20px;
+      padding-left: 20px;
+      width: 100%;
+      height: 40%;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .p1-inside{
+      padding-bottom: 20px;
+      color: black;
+    }
+    .p2-inside{
+      padding-bottom: 20px;
+      color: black;
+      font-weight: bold;
+    }
+    .p3-inside{
+      padding-bottom: 20px;
+      color: blue;
+    }
+    .p3-inside:hover{
+      padding-bottom: 20px;
+      color: rgb(46, 118, 253);
+    }
+    .inside-a{
+      text-decoration: none;
+    }
+ 
+  </style>
+  
+  <title>Document</title>
+</head>
+<body>
+  <div class="first-element">
+  <p class="first-element-paragraph">Career Lab is the first step toward an Apprenticeship. <a href="https://maxxpotential.com/careerlab/">Apply here.</a></p>
+  </div>
+
+  <!--w3schools navigation bar-->
+  <div class="navigation-bar">
+    <div class="left">
+    <a href="https://maxxpotential.com/">
+    <img class="home-image" src="maxx-logo.png"></a>
+  </div>
+
+  <div class="right">
+    <a href="https://maxxpotential.com/business-solutions/">Businesses</a>
+    <a href="https://maxxpotential.com/apprenticeships/">Apprentices</a>
+    <a href="https://maxxpotential.com/education-solutions/">Educators</a>
+    <a href="https://maxxpotential.com/about/">About</a>
+    <a href="https://maxxpotential.com/blog/">Blog</a>
+    <!--https://www.shecodes.io/athena/17038-how-to-add-a-link-to-my-button-in-html-->
+    <a href="https://maxxpotential.com/contact-us/">
+    <button class="contact-button">CONTACT US</button>
+    </a>
+  </div>
+  </div>
+  
+  <div class="under-container"><!--Portion of website for man sitting on computer, can't inspect the image-->
+    <div class="inside">
+    <h1>Built differently.</h1>
+    <h1>Built for you.</h1>
+    <p class="paragraph">We help businesses transform their talent strategy and individuals kickstart their careers in technology. 
+      Explore how our uniquely effective Apprenticeship expertise can work for you. #StartWithMAXX</p>
+      <div class="flex-button">
+      <!--Similar button as the contact us so I copied+pasted-->
+      <a href="https://maxxpotential.com/business-solutions/">
+        <button class="under-button">BUSINESSES</button>
+        </a>
+      <a href="https://maxxpotential.com/apprenticeships/">
+        <button class="under-button">JOB SEEKERS</button>
+        </a>
+      </div>
+  </div><!--Portion of website for man sitting on computer, can't inspect the image-->
+</div>
+
+
+
+
+
+  <!--This was confusing, but remember to break down it logically. 1: Make a div for the text and image to go inside. 
+  2: Divide into two columns, 1 for text, 1 for image. <p>will automatically make rows to stack</p>-->
+  <div class="big-container">
+  <div class="signup">
+    <div class="text-column">
+    <p class="spacing">EDUCATORS</p>
+    <p class="spacing">Give your students a head start 
+    in IT with the MAXX Potential Internship Simulator.
+    This program combines real-world experience and 
+    mentorship to enhance skills and build professional networks. 
+    Enroll now for Summer 2024 and help your students unlock their potential!
+  </p>
+  <a class="signup-link spacing" href="https://maxxpotential.com/internships/">Sign Up</a>
+  </div>
+  <div class="picture-column">    
+  <img src="contact-us.png" width="150" height="150">
+</div>
+</div>
+
+<h1>Where are our Alumni?</h1>
+<div class="logo-images" width="250">
+<img src="AvePoint.svg" width="250">
+<img src="Berkley-1.png" width="250">
+<img src="capital-one.png" width="250">
+<img src="carlotz.svg" width="250">
+<img src="century-new-logo-1.png" width="250">
+</div>
+</div>
+
+
+<div class="gray-container">
+
+  <div class="flex-row">
+  <div class="left-column">
+  <img class="doodle-image" src="doodle.png">
+  <p class="for-paragraph">For Customers: A better way to get IT done.</p>
+  <p class="learn-paragraph">Our proven approach delivers more than high-quality managed services and staff augmentation. With MAXX Potential, 
+    you have access to motivated, lifelong learners with a strong desire to put their rapidly developing skills to work for you. 
+    The icing? You can hire at any time. It’s a win-win-win.</p>
+  <a href="https://maxxpotential.com/business-solutions/">
+  <button class="learn-button">LEARN MORE ABOUT OUR SERVICES</button>
+  </a>
+  </div>
+  <div class="right-column">
+    <img src="right-column-image.png">
+</div>
+</div>
+</div>
+
+
+
+
+<div class="unique-row">
+  <div class="unique-column">
+    <img class="profile" src="profile.jpeg">
+      
+
+    <div class="benjamin-background-color">
+    <p class="p-unique"><a href="https://maxxpotential.com/benjamin-alloway/">BENJAMIN ALLOWAY</p></a>
+    <p class="p-unique2">FULL-STACK SOFTWARE ENGINEER, FUEL DIGITAL</p>
+    <p class="p-unique3"><a href="https://maxxpotential.com/benjamin-alloway/">READ MORE</p></a>
+   </div>
+
+  </div>
+   
+   <div class="unique-column">
+    <img class="doodle-red-hat" src="doodle-red-hat.png">
+
+
+    <h class="benjamin-header">For Apprentices: A unique opportunity to break into the IT industry.</h>
+    <p class="benjamin-paragraph">No experience? Let’s fix that.</p>
+    <p class="benjamin-paragraph">MAXX Potential is founded by enterprise technology leaders who were once right where you are and worked
+      their way up to become accomplished professionals. Because of this, we know that getting started can be tough. 
+      Like any good problem-solver though, we developed a creative solution. As a paid MAXX Potential Apprentice, you 
+      will be working in a supportive learning environment, mentored by pros who will help you sharpen your technical skills. 
+      You will also be solving that catch-22 and gaining the industry-recognized experience your resumé needs.</p>
+
+      <a href="https://maxxpotential.com/apprenticeships/">
+      <button class="learn-button">LEARN MORE ABOUT OUR APPRENTICESHIPS</button>
+      </a>
+      
+    </div>
+  </div>
+
+
+<div class="unique-row">
+  <div class="unique-column">
+    <img class="doodle-red-hat" src="Doodle-w-necklace.png">
+    <p class="benjamin-header">
+      People are at the core of our Mission.
+    </p>
+    <p class="benjamin-paragraph">
+      Everyone at MAXX is passionate about bringing people to the forefront of the tech industry, which is why we were inspired to launch MAXX Potential.
+      Ultimately, the goal of this organization is simple: build a more sustainable career path for local technicians and a more reliable talent pipeline for businesses.
+    </p>
+  </div>
+
+  <div class="unique-column">
+    <div class="news-container">
+      <div class="inside-container">
+      <p class="p1-inside">IN THE NEWS</p>
+      <p class="p2-inside">WANT TO WORK IN IT? LOOK FOR A PAID APPRENTICESHIP</p>
+      <a class="inside-a" href="https://nypost.com/2021/11/28/want-to-work-in-it-look-for-a-paid-apprenticeship/">
+      <p class="p3-inside">READ MORE</p>
+      </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
