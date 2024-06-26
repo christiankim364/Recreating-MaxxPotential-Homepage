@@ -1,0 +1,51 @@
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:500px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.left-column{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.right-column{
+  display: flex;
+  flex-direction: row;
+}
+.doodle-image{
+  width: 100px;
+  max-width: 15%
+}
+.learn-paragraph{
+  color: black;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.learn-button{
+background-color:  rgb(0, 100, 200);
+color: white;
+border: none;
+width: 500px;
+height: 48px;
+font-size: 20px;
+border-radius: 8px;
+cursor: pointer;
+/*from exercise 3f-amazonweb.html*/
+transition: opacity .5s;
+}
+.learn-button:hover{
+/*from exercise 3f-amazonweb.html*/
+opacity: .7;
+}
+.for-paragraph{
+ color: black;
+ font-family: Arial;
+ font-weight: bold;
+ font-size: 30px; 
+ margin-top: 15px;
+ margin-bottom: 30px;
+}
