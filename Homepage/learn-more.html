@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .flex-row{
+      display: flex;
+      border: solid;
+      border-color: black;
+      justify-content: space-between;
+      align-items: center;
+      height:500px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .left-column{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+    .right-column{
+      display: flex;
+      flex-direction: row;
+
+    }
+    .doodle-image{
+      width: 100px;
+      max-width: 15%
+    }
+    .learn-paragraph{
+      margin-top: 0;
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+    }
+    .learn-button{
+    background-color:  rgb(0, 100, 200);
+    color: white;
+    border: none;
+    width: 500px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    /*from exercise 3f-amazonweb.html*/
+    transition: opacity .5s;
+  }
+  .learn-button:hover{
+    /*from exercise 3f-amazonweb.html*/
+    opacity: .7;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="flex-row">
+  <div class="left-column">
+  <img class="doodle-image" src="images/doodle.png">
+  <p class="for-paragraph">For Customers: A better way to get IT done.</p>
+  <p class="learn-paragraph">Our proven approach delivers more than high-quality managed services and staff augmentation. With MAXX Potential, 
+    you have access to motivated, lifelong learners with a strong desire to put their rapidly developing skills to work for you. 
+    The icing? You can hire at any time. It’s a win-win-win.</p>
+  <a href="https://maxxpotential.com/business-solutions/">
+  <button class="learn-button">LEARN MORE ABOUT OUR SERVICES</button>
+  </a>
+
+  </div>
+  <div class="right-column">
+    <img src="images/right-column-image.png">
+</div>
+</div>
+</body>
+</html>
