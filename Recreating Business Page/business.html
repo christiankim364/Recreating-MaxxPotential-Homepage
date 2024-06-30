@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    p{
+      margin:0;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h2{
+      color: #4A4A4A;
+    }
+    h3{
+      color: #4A4A4A;
+    }
+    .business-flex-container{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      border: solid black;
+    }
+    .business-column-left{
+      display: flex;
+      flex-direction: column;
+      width: 40%;    
+      border: solid black;
+      justify-content: space-evenly;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .business-column-right{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      background-image: url("background.jpg");
+      background-size: 1000px 550px;
+      background-repeat: no-repeat;
+    }
+    .business-header{
+      font-size: 45px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #4A4A4A;
+      font-weight: bold;
+    }
+    .business-paragraph{
+      font-size: 32.5px;
+      font-family: 'Arial';
+      color: #4A4A4A;
+      font-weight: bold;
+    }
+    .background-image-curve{
+      border-bottom-left-radius: 500px;
+    }
+    .two-people-image{
+      width: 100%;
+    }
+    .business-column-left2{
+      display: flex;
+      flex-direction: column;
+      width: 38%;    
+      border: solid black;
+      justify-content: space-evenly;
+    }
+    .business-column-right2{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      border: solid black;
+    }
+    .left-right-column{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+    }
+    .business-flex-container2{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      border: solid black;
+      justify-content: space-evenly;
+    }
+    .touch-button{
+      background-color:  rgb(0, 100, 200);
+      color: white;
+      border: none;
+      width: 180px;
+      height: 48px;
+      font-size: 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      /*from exercise 3f-amazonweb.html*/
+      margin-right: 15px;
+    }
+    .touch-button:hover{
+      /*from exercise 3f-amazonweb.html*/
+      background-color:  rgb(0, 147, 200);
+    }
+    
+
+  </style>
+
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="business-flex-container">
+
+    <div class="business-column-left">
+  <div><p class="business-header">Give your team a competitive edge.</p></div>
+  <div><p class="business-paragraph">BUDGETS ARE TIGHT. TALENT IS IN SHORT SUPPLY. WE CAN HELP.</p></div>
+  <div><p clas="business-paragraph2">Whether you’re looking for a reliable managed service provider, or innovative ways to grow your team, our unique Apprenticeship approach can help you build bench strength efficiently and effectively.</p></div>
+    </div>
+  
+  <div class="business-column-right">
+  <div><img src="MAXX-Path.png"></div>
+</div>
+</div>
+
+
+
+
+<div class="business-flex-container">
+  <div class="business-column-left2">
+<div><img class="two-people-image" src="2-people-computer.png"></div>
+  </div>
+
+  <div class="business-column-right2">
+    <div><h2>Need Work Done?</h2></div>
+    <div><p>Our team is 100% US-based and offers globally-competitive solutions for:</p></div>
+    <div>
+      <ul>
+      <li>Infrastructure Operations</li>
+      <li>Fixed price project work</li>
+      <li>Surge capacity for special initiatives <span>(the more unique or challenging, the better!)</span></li>
+      </ul>
+    </div>
+    <div><button class="touch-button">GET IN TOUCH</button></div>
+    </div>
+    </div>
+   
+
+    <div class="business-flex-container2">
+
+      <div class="left-right-column">
+      <div><h3>Robotic Process Automation</h3></div>
+      <div><p>We have proven experience delivering automation solutions across the most common Enterprise automation platforms, 
+        including <b>Power Automate, Automation 360, UiPath and Blue Prism.</b> For accelerating developer ramp-up time, MAXX Potential 
+        will tailor our solutions to your business environment and technology stack. We can have a skilled team up and running in as 
+        few as two weeks.</p></div>
+      </div>
+
+      <div class="left-right-column">
+      <div><h3>24x7x365 US-Based Security/Infrastructure Operations (SOC/NOC Support)</h3></div>
+      <div><p>MAXX Potential Apprentices go beyond answering the phones and logging tickets. We understand the importance of having a 
+        reliable team in place to triage after-hours issues and alerts. Our turnkey Managed Service solutions include ramp-up, cross-training
+         and scheduling to put your mind at ease by keeping your business safe and secure around the clock.</p></div>
+        </div>
+
+      <div class="left-right-column">
+      <div><h3>Enterprise Application Maintenance</h3></div>
+      <div><p>From ERP systems to highly customized proprietary tools, we can work with your platform vendors and team to rapidly train our Apprentices’
+         to plug in to your platform and handle your day-to-day support and maintenance tasks. Our Apprentices appreciate the valuable learning opportunity,
+          and our Customers achieve measurable results from our top notch, cost-effective solutions.</p></div>
+      </div>
+      </div>
+
+    
+
+</body>
+</html>
