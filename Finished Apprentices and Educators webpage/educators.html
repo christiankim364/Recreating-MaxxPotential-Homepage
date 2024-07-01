@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/educators.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/button.css">
+  <link rel="stylesheet" href="styles/footer.css">
+
+  <style>
+    ul{
+      color: #4A4A4A;
+      font-size: 20px;
+    }
+    ol{
+      color: #4A4A4A;
+      font-size: 20px;
+    }
+    .educators-container{
+      background-image: url("background.jpg");
+      height: 580px;
+      width: 100%;
+    }
+    .educators-background{
+      padding-left: 175px;
+      padding-top: 50px;
+      width: 870px;
+      height: 320px;
+    }
+    .educators{
+      font-size: 80px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .educators2{
+      font-size: 35px;
+      color: white;
+      font-family: 'Arial';
+      font-weight: bold;
+      padding-top: 15px;
+    }
+    .IT-programs-container{
+      background-color: #4A4A4A;
+      width: 100%;
+      height: 230px; 
+      display: flex;
+      flex-direction: row;
+      border: solid green;
+    }
+    .IT-programs-cl{
+      display: flex;
+      flex-direction: column;
+      border: solid red;
+      justify-content: center;
+      width: 590px;
+      margin-left: 150px;
+
+    }
+    .IT-programs-cr{
+      display: flex;
+      flex-direction: column;
+      border: solid black;
+      justify-content: center;
+      margin-left: 50px;
+    }
+    .IT-programs-p{
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+    }
+    .educators-container2{
+      border: solid black;
+      padding-left: 150px;
+    }
+    .educators-p{
+      font-size: 35px;
+      color: #4A4A4A;
+      font: Arial;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .sound-familiar-p{
+      padding-left: 20px;
+    }
+    .girl-on-zoom{
+      width: 400px;
+    }
+    .educators-container3{
+      display: flex;
+      flex-direction: row;
+      border: solid black;
+      justify-content: space-evenly;
+      width: 90%;
+    }
+    .educators-column-left{
+      display: flex;
+      flex-direction: column;
+      border: solid green;
+      padding-left: 50px;
+      padding-top: 30px;
+    }
+    .educators-column-right{
+      display: flex;
+      flex-direction: column;
+      border: solid red;
+      width: 40%;
+    }
+    .educators-container4{
+      display: flex;
+      flex-direction: column;
+      border: solid black;
+      width: 1000px;
+      height: 300px;
+      justify-content: space-between;
+      margin-left: 10%;
+    }
+    .educators-container5{
+      display: flex;
+      flex-direction: row;
+      border: solid black;
+      width: 80%;
+
+      /*Better way to center*/
+      margin: 0 auto;
+    }
+    .educators-column-left2{
+      display: flex;
+      flex-direction: column;
+      border: solid green;
+    }
+    .educators-column-right2{
+      display: flex;
+      flex-direction: column;
+      border: solid red;
+    }
+    .educators-container6{
+      border: solid black;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .educators-gray-container{
+      background-color: #4A4A4A;
+      height: 200px;
+      margin: 0 auto;
+      align-content: center;
+      padding-left: 150px;
+    }
+    .educators-container7{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 550px;
+      margin: 0 auto;
+      border: solid black;
+      justify-content: space-around
+
+    }
+
+  </style>  
+  <title>Educators Webpage</title>
+</head>
+<body>
+
+  <!--w3schools navigation bar-->
+  <div class="navigation-bar">
+    <div class="left">
+    <a href="homepage.html">
+    <img class="home-image" src="images/maxx-logo.png"></a>
+  </div>
+
+  <div class="right">
+    <a href="business.html">Businesses</a>
+    <a href="apprentices.html">Apprentices</a>
+    <a href="educators.html">Educators</a>
+    <a href="https://maxxpotential.com/about/">About</a>
+    <a href="https://maxxpotential.com/blog/">Blog</a>
+    <!--https://www.shecodes.io/athena/17038-how-to-add-a-link-to-my-button-in-html-->
+    <a href="https://maxxpotential.com/contact-us/">
+    <button class="contact-button">CONTACT US</button>
+    </a>
+  </div>
+  </div>
+
+  <div class="educators-container">
+  <div class="educators-background">
+  <div><p class="educators">Work-based learning experiences are highly beneficial; there aren't enough to go around</p></div>
+  <div><p class="educators2">We're changing that.</p></div>
+  </div>
+</div>
+
+
+<div class="IT-programs-container">
+
+  <div class="IT-programs-cl">
+    <div><p class="IT-programs-p">Information technology programs customized to fit your needs</p></div>
+  </div>
+
+  <div class="IT-programs-cr">
+    <div><button class="register-now-button">REGISTER NOW</button></div>
+  </div>
+</div>
+
+
+<div class="educators-container2">
+<div><p class="educators-p">The "learning to earning" challenge.</p></div>
+<div><p class="sound-familiar-p">Does any of this sound familiar to you?</p></div>
+<ul>
+  <li>Finding high-quality work-based learning opportunities in IT is hard</li>
+  <li>Finding high-quality work-based learning opportunities in IT is hard  </li>
+  <li>Getting in is a challenge, unless you know the right people</li>
+  <li>Assessing fit for an IT job is difficult</li>
+  <li>Subscription services and tests are not engaging and don’t provide recommendations</li>
+  <li>The logistics and paperwork to place secondary students is daunting
+  </li>
+</ul>
+</div>
+
+
+<div class="educators-container3">
+
+<div class="educators-column-left">
+<div><img class="girl-on-zoom" src="images/girl-on-zoom.jpg"></div>
+</div>
+
+<div class="educators-column-right">
+<div><p class="educators-p">What we're doing about it.</p></div>
+<div><p>MAXX Potential offers career exploration, preparation and transition into high paying IT jobs through our unique set of programs tuned over
+    the past decade. These are not simple videos, games, tests or computer-based training (CBT). Our programs are highly interactive with industry professionals
+    providing group and one-on-one coaching and mentoring in a supportive, safe and accessible environment. Our extensive content library, developed from years 
+    of experience in Enterprise IT departments, is at your disposal, though we are equally equipped to enhance or utilize your own materials if you choose. We 
+    collaborate with your organization to integrate this wealth of knowledge into programs and curricula you already have in place</p></div>
+</div>
+</div>
+
+<div class="educators-container4">
+<div><p class="educators-p">The No Hassle Factor</p></div>
+<div><p>We take the logistics out of work-based learning session implementation so you can focus on the people, not the paperwork. It’s as easy as:</p></div>
+<ol type="1">
+  <li>Provide the list of participants.</li>
+  <li>Schedule your session times or book times in our standard sessions.</li>
+  <li>Review the results.</li>
+</ol>
+<div><p>It’s really that easy, especially for virtual sessions, which tend to be preferred for the flexibility they offer. Don’t want virtual? We will also run sessions at your locations. Just tell us where and when to show up.</p></div>
+</div>
+
+<div class="educators-container5">
+  <div class="educators-column-left2">
+  <div><p class="educators-p">Exploration: Career Lab</p></div>
+  <div><p>Career Lab provides high quality IT career awareness and hands-on exploration as early as middle school. These workshops cover topics such as software development, data and analytics, artificial intelligence, cybersecurity, networking and hardware and quality assurance.</p></div>
+  <div><p class="educators-p">Preparation: Internship Simulator</p></div>
+  <div><p>Our answer to the dearth of internship opportunities, this simulated work environment emulates a real-world company’s technology team facing contemporary scenarios. We eliminate the hassle and complexity of internship logistics by bringing the experience to you. Participants build their professional vocabulary, learn to collaborate, get valuable experience for their resumé, and strong answers to the common interview question:  </p></div>
+  <div><p>“Give me an example of when . . .”</p></div>
+</div>
+
+<div class="educators-column-right2">
+  <div><img src="images/girl-taking-notes.png"></div>
+</div>
+</div>
+
+<div class="educators-container6">
+<div><p class="educators-p">Experience: Apprenticeship</p></div>
+<div><p>After completing our Career Lab or Simulator, participants are eligible to apply to the MAXX Potential Apprenticeship program. In addition to invaluable experience, this no-cost program provides Apprentices with a full-time wage and ongoing mentorship by experienced IT industry professionals.</p></div>
+</div>
+
+<div class="educators-gray-container">
+
+  <div><p class="IT-programs-p">Implementation and pricing.</p></div>
+
+</div>
+
+<div class="educators-container7">
+  <div><p class="educators-p">Schedule a consultation with us to talk about your program requirements.</p></div>
+  <div><p>Our expert team will meet with you to better understand your population’s prior learning experience and aptitude. We provide experiences for middle school to adult learners and can customize them to fit your needs. We will adjust the difficulty of work scenarios to ensure a “just-right” level of struggle and stretch. </p></div>
+  <div><p>MAXX Potential’s work-based learning experiences are easily customizable and can be as light as an on-site visit to an immersive 160-hour, multi-role and resumé-worthy work experience.  </p></div>
+  <div><p>Generally, the cost for the program will depend on some of the following design choices.</p></div>
+  <div><p>How many participants?</p></div>
+  <div><p>On-site or online?</p></div>
+  <div><p>Will MAXX Potential be providing professional development, a facilitator or both?</p></div>
+  <div><p>What level of customization is required?</p></div>
+</div>
+
+
+<div><button class="schedule-now-button">SCHEDULE A CONSULTATION</button></div>
+
+
+<!--Footer-->
+<div class="footer-container">
+  <div class="footer-image-width">
+    <img class="maxx-footer-image" src="images/MAXX-Footer.png">
+  </div>
+
+  <div class="success-stories-width">
+  <div class="flex-column-success">
+    <div class="success-row">
+  <div class="success-maxx"><a href="">SUCCESS STORIES</a></div>
+  <div class="success-maxx"><a href="">WORK AT MAXX</a></div>
+</div>
+  <div class="maxx-footer-padding">Stay connected. Get the latest on mentorship, 
+    skill-building, and Apprentice success stories.</div>
+
+  <div class="footer-flex-row">
+  <div class="maxx-footer-padding"><input class="email-address" type="text" placeholder="Email Adress"></div>
+  <button class="signup-button">SIGN UP</button>
+</div>
+  <div>&#169;Copyright 2024 MAXX Potential LLC</div>
+</div>
+</div>
+
+
+
+<div class="logo-width">
+<div class="footer-flex-column">
+<div class="footer-flex-row">
+<div><img class="twitter" src="images/twitter-logo.jpg"></div>
+<div><img class="linkedin" src="images/linkedin.jpg"></div>
+<div><img class="facebook" src="images/facebook.jpg"></div>
+</div>
+
+<div>MAXX Potential Apprentices are nationwide and ready to assist. Please feel free to reach out at 866-525-MAXX (6299). 
+  We also currently support three major operation hubs.</div>
+</div>
+</div>
+
+
+<div class="cities-width">
+<div class="footer-flex-column">
+<div class="cities">RICHMOND, VA</div>
+<div class="cities">DURHAM, NC</div>
+<div class="cities">NORFOLK, VA</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+</body>
+</html>
