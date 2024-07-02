@@ -1,0 +1,131 @@
+body{
+  margin-top: 130px;
+}
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  width: 87%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.contact-column-left{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  justify-content: space-around;
+}
+.contact-column-right{
+  display: flex;
+  flex-direction: column;
+  border: solid green;
+  margin-right: 50px;
+}
+.contact-header{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #4A4A4A;
+  width: 350px;
+}
+.contact-paragraph{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #4A4A4A;
+  width: 570px;
+  padding-bottom: 50px;
+}
+.contact-submit-container{
+  display: flex;
+  flex-direction: column;
+  border: solid pink;
+  background-color: rgb(231, 231, 231);
+  width: 70%;
+  height: 600px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  border: solid greenyellow;
+  padding-left: 20px;
+}
+.contact-submit-row{
+  display: flex;
+  flex-direction: row;
+  border: solid blue;
+}
+.submission-p{
+  font-size: 16;
+  font-family: Arial;
+  color: #4A4A4A;
+}
+.submission-field{
+  width: 450px;
+  height: 30px;
+}
+.submission-field-email{
+  width: 972px;
+  height: 30px;
+}
+.submission-field-message{
+  width: 972px;
+  height: 80px;
+}
+.contact-column-inside{
+  display: flex;
+  flex-direction: column;
+  border: solid orange;
+}
+.contact-column-inside2{
+  display: flex;
+  flex-direction: column;
+  border: solid orange;
+  justify-content: space-evenly;
+  height: 250px;
+}
+.prospective-container{
+  display: flex;
+  flex-direction: row;
+  background-color: #0B70A9;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.prospective-column-left{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  margin-right: 120px;
+}
+.prospective-column-right{
+  display: flex;
+  flex-direction: column;
+  border: solid green;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+.prospective-header{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+}
+.prospective-paragraph{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+}
+.prospective-paragraph2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.prospective-paragraph2:hover{
+  color: #25d7ff;
+
+}
+.learn-more-link{
+  text-decoration: none;
+}

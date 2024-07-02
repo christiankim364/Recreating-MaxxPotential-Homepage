@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/button.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <style>
+    .blog-flex-container{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 550px;
+      justify-content: space-evenlye;
+    }
+    .blog-left-column{
+      display: flex;
+      flex-direction: column;
+      width: 40%;    
+      justify-content: space-evenly;
+      padding-top: 40px;
+      padding-bottom: 100px;
+      padding-left: 100px;
+    }
+    .blog-right-column{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      background-image: url("cy-background3.jpg");
+      background-size: 1000px 650px;
+      border-bottom-left-radius: 650px;
+      background-repeat: no-repeat;
+    }
+    .blog-header{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4A4A4A;
+    font-weight: bold;
+    }
+    .blog-paragraph{
+    font-size: 32.5px;
+    font-family: 'Arial';
+    color: #4A4A4A;
+    font-weight: bold;
+    width: 350px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    }
+    .blog-h{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 64px;
+      font-weight: bold;
+      color: #4A4A4A;
+      width: 100px;
+    }
+    .blog-p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: #4A4A4A;
+    }
+    .nav-flex-container{
+      display: flex;
+      flex-direction: row;
+      width: 75%;
+      height: 80px;
+      margin: 0 auto;
+      border: solid black;
+      justify-content: space-evenly;
+      align-items: center;
+    } 
+    .nav-flex-container a{
+      text-decoration: none;
+      color: #4A4A4A;
+      font-size: 20px;
+    }
+    .nav-flex-container a:hover{
+      color: blue;
+    }
+    .our-thoughts{
+      text-align: center;
+      font-size: 20px;
+      font-family: Arial;
+      color: #4A4A4A;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .blog-container2{
+      display: flex;
+      flex-direction: row;
+      border: solid black;
+      height: 400px;
+      justify-content: space-evenly;
+      margin-bottom: 50px;
+    }
+    .blog-2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 400px;
+      background-color: #eeeeee;
+      border-radius: 20px;
+    }
+    .blog-images{
+      width: 100%;
+      height: 200px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    .blog-p1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+    .blog-p2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .blog-p3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: blue;
+    }
+    .blog-flex-row{
+      display: flex;
+      flex-direction: row;
+      width: 30%;
+      justify-content: space-between;
+      border: solid blue;
+      color: #4A4A4A;
+      margin-left: 65%;
+      margin-bottom: 50px;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .blog-container2 a{
+      text-decoration: none;
+    }
+    .blog-container2 a:hover{
+      color: lightblue;
+      background-color: rgb(0, 204, 255);
+      border-radius: 25px;
+    }
+  </style>
+
+
+
+  <title>Blog Webpage</title>
+</head>
+<body>
+  
+
+  <!--w3schools navigation bar-->
+  <div class="navigation-bar">
+    <div class="left">
+    <a href="homepage.html">
+    <img class="home-image" src="images/maxx-logo.png"></a>
+  </div>
+
+  <div class="right">
+    <a href="business.html">Businesses</a>
+    <a href="apprentices.html">Apprentices</a>
+    <a href="educators.html">Educators</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <!--https://www.shecodes.io/athena/17038-how-to-add-a-link-to-my-button-in-html-->
+    <a href="contact-us.html">
+    <button class="contact-button">CONTACT US</button>
+    </a>
+  </div>
+  </div>
+
+  <div class="blog-flex-container">
+
+    <div class="blog-left-column">
+  <div><p class="blog-header">We unlock potential.</p></div>
+  <div><p class="blog-paragraph">THE NON-TRADITIONAL APPROACH YOU’VE BEEN MISSING</p></div>
+  <div><p>By dedicating a space for individuals to grow and harness their technical skills, we are changing the landscape of the IT industry.</p></div>
+    </div>
+  
+  <div class="blog-right-column">
+  <div><img src="images/MAXX-Path.png"></div>
+</div>
+</div>
+
+
+
+
+
+<div class="nav-flex-container">
+<a href="">ALL</a>
+<a href="">APPRENTICESHIP</a>
+<a href="">BUSINESSES</a>
+<a href="">EDUCATION</a>
+</div>
+
+
+<div class="blog-container2">
+
+  <div class="blog-2">
+    <div><img class="blog-images" src="images/blog1.jpg"></div>
+    <div><p class="blog-p1">IS YOUR WORKFORCE READY FOR GENERATIVE AI ADVERSARIES?</p></div>
+    <div><p class="blog-p2">DEFENDING AGAINST THE DEEP</p></div>
+    <div><p class="blog-p3"><a href="https://maxxpotential.com/is-your-workforce-ready-for-generative-ai-adversaries/">READ MORE</a></p></div>
+  </div>
+
+  <div class="blog-2">
+    <div><img class="blog-images" src="images/blog2.jpg"></div>
+    <div><p class="blog-p1">IS YOUR WORKFORCE READY FOR GENERATIVE AI ADVERSARIES?</p></div>
+    <div><p class="blog-p2">DEFENDING AGAINST THE DEEP</p></div>
+    <div><p class="blog-p3"><a href="https://maxxpotential.com/alumni-success-story-douglas-quinn/">READ MORE</a></p></div>
+  </div>
+
+  <div class="blog-2">
+    <div><img class="blog-images" src="images/blog3.jpeg"></div>
+    <div><p class="blog-p1">IS YOUR WORKFORCE READY FOR GENERATIVE AI ADVERSARIES?</p></div>
+    <div><p class="blog-p2">DEFENDING AGAINST THE DEEP</p></div>
+    <div><p class="blog-p3"><a href="https://maxxpotential.com/is-your-workforce-ready-for-generative-ai-adversaries/">READ MORE</a></p></div>
+  </div>
+</div>
+
+
+
+<div class="blog-flex-row">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>...</div>
+<div>5</div>
+<div>1</div>
+<div>Next >>></div>
+</div>
+
+
+
+
+<!--Footer-->
+<div class="footer-container">
+  <div class="footer-image-width">
+    <img class="maxx-footer-image" src="images/MAXX-Footer.png">
+  </div>
+
+  <div class="success-stories-width">
+  <div class="flex-column-success">
+    <div class="success-row">
+  <div class="success-maxx"><a href="">SUCCESS STORIES</a></div>
+  <div class="success-maxx"><a href="">WORK AT MAXX</a></div>
+</div>
+  <div class="maxx-footer-padding"><p class="footer-paragraph">Stay connected. Get the latest on mentorship, 
+    skill-building, and Apprentice success stories.</p></div>
+
+  <div class="footer-flex-row">
+  <div class="maxx-footer-padding"><input class="email-address" type="text" placeholder="Email Adress"></div>
+  <button class="signup-button">SIGN UP</button>
+</div>
+  <div class="footer-paragraph2">&#169;Copyright 2024 MAXX Potential LLC</div>
+</div>
+</div>
+
+
+
+<div class="logo-width">
+<div class="footer-flex-column">
+<div class="footer-flex-row">
+<div><a href="https://x.com/MaxxTechnology"><img class="twitter" src="images/twitter-logo.jpg"></a></div>
+<div><a href="https://www.linkedin.com/company/maxx-potential/"><img class="linkedin" src="images/linkedin.jpg"></a></div>
+<div><a href="https://www.facebook.com/maxxpotentialllc/"><img class="facebook" src="images/facebook.jpg"></a></div>
+</div>
+
+<div class="footer-paragraph">MAXX Potential Apprentices are nationwide and ready to assist. Please feel free to reach out at 866-525-MAXX (6299). 
+  We also currently support three major operation hubs.</div>
+</div>
+</div>
+
+
+<div class="cities-width">
+<div class="footer-flex-column">
+<div class="cities">RICHMOND, VA</div>
+<div class="cities">DURHAM, NC</div>
+<div class="cities">NORFOLK, VA</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

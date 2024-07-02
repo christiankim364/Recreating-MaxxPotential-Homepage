@@ -1,0 +1,211 @@
+.big-container{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*vertical center*/
+  align-items: center; /*horizontal center*/
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.contact-us{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+.contact-us-container{
+  background-color:  #0F7CBB;
+  color: white;
+  border: none;
+  width: 1000px;
+  height: 250px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;  
+}
+.text-column{
+  width: 70%;
+}
+.spacing{
+  padding-bottom: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  width: 580px;
+  line-height: 1.5;
+}
+.signup-link{
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  
+}
+.signup-link:hover{
+  color: rgb(104, 170, 236); 
+}
+.picture-column{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.touch-button{
+  background-color: #0F7CBB;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  /*from exercise 3f-amazonweb.html*/
+  margin-right: 15px;
+  margin-top: 40px;
+}
+.touch-button:hover{
+  /*from exercise 3f-amazonweb.html*/
+  background-color:  rgb(0, 147, 200);
+}
+.signup-button{
+  background-color:  #0F7CBB;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  /*from exercise 3f-amazonweb.html*/
+}
+.signup-button:hover{
+  /*from exercise 3f-amazonweb.html*/
+  background-color:  rgb(0, 147, 200);
+}
+.register-now-button{
+  background-color:  #0F7CBB;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.register-now-button:hover{
+    background-color:  rgb(0, 147, 200);
+}
+.schedule-now-button{
+  background-color:  #0F7CBB;
+  color: white;
+  border: none;
+  width: 360px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  /**https://www.shecodes.io/athena/12186-how-to-center-a-button-using-css#:~:text=To%20center%20a%20button%2C%20you,margin%20property%20to%20%22auto%22.&text=This%20approach%20will%20center%20the,need%20to%20use%20additional%20CSS.**/
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.schedule-now-button:hover{
+    background-color:  rgb(0, 147, 200);
+}
+.signup-button{
+  font-size: 20px;
+  border: none;
+  background-color: #0B70A9;
+  color: white;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+  transition: .7s;
+}
+.signup-button:hover{
+  color: white;
+  background-color: rgb(144, 192, 255);
+}
+.contact-button{
+  background-color: #0B70A9;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  /*from exercise 3f-amazonweb.html*/
+  transition: opacity .5s;
+}
+.contact-button:hover{
+  /*from exercise 3f-amazonweb.html*/
+  opacity: .7;
+}
+.under-button{
+  background-color: #0B70A9;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 48px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  /*from exercise 3f-amazonweb.html*/
+  margin-right: 15px;
+  }
+  .under-button:hover{
+  /*from exercise 3f-amazonweb.html*/
+  background-color:  rgb(0, 147, 200);
+  }
+  .learn-button{
+    background-color: #0B70A9;
+    color: white;
+    border: none;
+    width: 500px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    /*from exercise 3f-amazonweb.html*/
+    transition: opacity .5s;
+    }
+    .learn-button:hover{
+    /*from exercise 3f-amazonweb.html*/
+    opacity: .7;
+    }
+    .signup{
+      background-color: #0B70A9;
+      color: white;
+      border: none;
+      width: 800px;
+      height: 250px;
+      border-radius: 8px;
+      font-size: 16px;
+      padding-left: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 30px;  
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .contact-submit-button{
+      border: none;
+      background-color: #0F7CBB;
+      color: white;
+      width: 100px;
+      height: 60px;
+      font-size: 20px;
+      border-radius: 5px;
+    }

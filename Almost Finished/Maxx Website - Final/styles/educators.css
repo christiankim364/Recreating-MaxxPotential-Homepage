@@ -1,0 +1,142 @@
+.educators-container{
+  background-image: url("lapetite-background.jpg");
+  background-size: 1000px 650px;
+  height: 580px;
+  width: 100%;
+}
+.educators-background{
+  padding-left: 175px;
+  padding-top: 50px;
+  width: 870px;
+  height: 320px;
+}
+.educators{
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.educators2{
+  font-size: 35px;
+  color: white;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding-top: 15px;
+}
+.IT-programs-container{
+  background-color: #4A4A4A;
+  width: 100%;
+  height: 230px; 
+  display: flex;
+  flex-direction: row;
+  border: solid green;
+}
+.IT-programs-cl{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  justify-content: center;
+  width: 590px;
+  margin-left: 150px;
+
+}
+.IT-programs-cr{
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  justify-content: center;
+  margin-left: 50px;
+}
+.IT-programs-p{
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+.educators-container2{
+  border: solid black;
+  padding-left: 150px;
+}
+.educators-p{
+  font-size: 35px;
+  color: #4A4A4A;
+  font: Arial;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sound-familiar-p{
+  padding-left: 20px;
+}
+.girl-on-zoom{
+  width: 400px;
+}
+.educators-container3{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  justify-content: space-evenly;
+  width: 90%;
+}
+.educators-column-left{
+  display: flex;
+  flex-direction: column;
+  border: solid green;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.educators-column-right{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  width: 40%;
+}
+.educators-container4{
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  width: 1000px;
+  height: 300px;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+.educators-container5{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  width: 80%;
+
+  /*Better way to center*/
+  margin: 0 auto;
+}
+.educators-column-left2{
+  display: flex;
+  flex-direction: column;
+  border: solid green;
+}
+.educators-column-right2{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+}
+.educators-container6{
+  border: solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+.educators-gray-container{
+  background-color: #4A4A4A;
+  height: 200px;
+  margin: 0 auto;
+  align-content: center;
+  padding-left: 150px;
+}
+.educators-container7{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 550px;
+  margin: 0 auto;
+  border: solid black;
+  justify-content: space-around
+
+}

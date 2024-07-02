@@ -1,0 +1,175 @@
+.benjamin-paragraph{
+  font-family: Arial;
+  color: #4A4A4A;
+  line-height: 1.5;
+  font-size: 20px;
+  width: 100%;
+}
+.benjamin-header{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  color: #4A4A4A;
+  padding-bottom: 15px;
+}
+.profile{
+  width: 600px;
+}
+.unique-row{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: 0 auto;
+  border: solid black;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.unique-column{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: space-evenly;
+  border: solid red;
+}
+.unique-row3{
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+.people-unique-row{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  width: 85%;
+  margin: 0 auto;
+}
+.people-unique-row2{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.unique-column3{
+  display: flex;
+  flex-direction: column;
+  border: solid blue;
+  width: 45%;
+  justify-content: space-evenly;
+}
+.doodle-red-hat{
+  width: 120px;
+}
+.benjamin-background-color{
+  background-color: lightgray;
+  height: 170px;
+  width: 85%;
+  margin-left: 11%;
+  padding-left: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-bottom: 20px;
+}
+.benjamin-background-color a{
+  text-decoration: none;
+} 
+.p-unique a {
+  display: flex; /* have to apply flex to a-links, for padding to work. */
+  padding-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #1B1B1D; 
+  font-family: Arial;
+}
+.p-unique a:hover{
+  color: rgb(0, 183, 255); 
+}
+.p-unique2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-unique3 a{
+  display: flex;
+  font-size: 20px;
+  text-decoration:none;
+  color: #0F7CBB;
+}
+.p-unique3 a:hover{
+  color: rgb(0, 183, 255); 
+}
+.gray-container{
+  background-color: rgb(240, 240, 240);
+  height: 650px;
+}
+.news-container{ /*use flex-end to make the inside container(gray be underneath the image*/
+  display: flex;
+  align-items: flex-end; /*Places the gray portion at the end of the container*/
+  width: 80%;
+  height: 350px;
+  border-radius: 20px;
+  background-image: url("news-container.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-position: center -75px; /*Moves the background image position up*/  
+  margin-left: 60px
+}
+.inside-container{
+  background-color: rgb(216, 216, 216);
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 40%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.inside-container2{
+  background-color: rgb(216, 216, 216);
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.p1-inside{
+  color: #4A4A4A;
+}
+.p2-inside{
+  padding-bottom: 20px;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+.p3-inside{
+  padding-bottom: 30px;
+  display: flex;
+  font-size: 23px;
+  text-decoration:none;
+  color: #0F7CBB;
+}
+.p3-inside:hover{
+  color: rgb(0, 183, 255); 
+}
+.inside-a{
+  text-decoration: none;
+}
+.contact-us{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.contact-us-container{
+  background-color: #0B70A9;
+  color: white;
+  border: none;
+  width: 1000px;
+  height: 250px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;  
+}

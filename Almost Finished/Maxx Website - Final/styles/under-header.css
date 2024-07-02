@@ -1,0 +1,70 @@
+body{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+h1{
+  margin-top:0;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: bold;
+}
+.home-image{
+width: 350px;
+margin-right: 90%;
+}
+
+.under-container{
+width: 100%;
+min-width: 500px;
+height: 700px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: white;
+/*https://www.w3schools.com/CSSref/css3_pr_background-size.php*/
+background-image: url('background3.png');  
+background-size: 2000px 800px;
+
+}
+.inside{
+  margin-left: auto;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.paragraph{
+  width: 400px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.flex-button{
+display: flex;
+flex-direction: row;
+margin-right: 10px;
+}
+.unique-row2{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  border: solid black;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.unique-column2-left{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border: solid red;
+}
+.unique-column2-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid blue;
+  width: 50%;
+  margin-left: 70px;
+}
+.maxx-difference{
+  width: 400px;
+}
