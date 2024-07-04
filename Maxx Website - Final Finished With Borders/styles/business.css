@@ -1,0 +1,276 @@
+.business-flex-container{
+  display: flex;
+  flex-direction: row;
+}
+.business-column-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;    
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  border-color: solid black;
+}
+.business-column-right{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-image: url("../images/lapetite-background2.jpg");
+  background-position: 50% 50%; 
+  border-bottom-left-radius: 650px;
+  background-repeat: no-repeat;
+}
+.business-header{
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+.business-paragraph{
+  font-size: 32.5px;
+  font-family: 'Arial';
+  color: #4A4A4A;
+  font-weight: bold;
+  width: 350px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.background-image-curve{
+  border-bottom-left-radius: 500px;
+}
+.business-flex-container2{
+  display: flex;
+  flex-direction: row;
+  border: solid green;
+  height: 400px;
+  align-items: center;
+}
+.business-column-left2{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  width: 40%;
+}
+.business-column-right2{
+  display: flex;
+  flex-direction: column;
+  border: solid blue;
+  justify-content: space-around;
+  height: 90%;
+}
+.two-people-image{
+  width: 85%;
+}
+.business-flex-container3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 500px;
+  border: solid black;
+  justify-content: space-evenly;
+}
+.business-two-div-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 340px;
+}
+.column3-p{
+  font-family: Arial 20px;
+  font-weight: bold;
+  padding-bottom: 83px;
+}
+.business-column-left3{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  width: 30%;
+  justify-content: space-between;
+  height: 323px;
+}
+.business-column-right3{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: solid green;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+.left-right-column{
+  display: flex;
+  flex-direction: column;
+  border: solid purple;
+  width: 30%;
+}
+.business-flex-container2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.proven-experience-header{
+  text-align: center;
+  color: #4A4A4A;
+  margin-top: 40px;
+}
+.more-images-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.business-flex-container2{
+  display: flex;
+  flex-direction: row;
+  border: solid black;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.building-column-left{
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  width: 40%;
+  height: 100%;
+  justify-content: space-between;
+}
+.building-column-right{
+  display: flex;
+  flex-direction: column;
+  border: solid blue;
+  width: 40%;
+}
+.guy-using-pc{
+  width: 90%;
+}
+.column3-p{
+  font-family: Arial 20px;
+  font-weight: bold;
+  padding-bottom: 83px;
+}
+.business-column-left3{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  width: 30%;
+}
+.business-column-right3{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: solid green;
+  padding-left: 40px;
+}
+.highly-motivated-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 140px;
+  background-color: #bb2a27;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.highly-motivated-p{
+  color: white;
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.regular-container{
+  height: 150px;
+  padding-left: 45px;
+}
+.become-hiring-p{
+  padding-left: 20px;
+}
+.business-flex-container4{
+display: flex;
+flex-direction: row;
+height: 430px;
+border: solid black;
+width: 80%;
+margin: 0 auto;
+}
+.business-column-left4{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.business-column-right4{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 70%;
+  justify-content: space-between;
+}
+.column4-p{
+  font-family: Arial 20px;
+  font-weight: bold;
+  padding-bottom: 170px;
+}
+.column4-p2{
+  font-family: Arial 20px;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+.column4-p3{
+  font-family: Arial 20px;
+  font-weight: bold;
+}
+.three-header{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  color: #4A4A4A;
+  padding-bottom: 15px;
+}
+.business-paragraph2{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  width: 450px;
+}
+.business-header2{
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 1.5;
+}
+.business-paragraph3{
+  font-family: 'Arial';
+  font-size: 20px;
+  color: #4A4A4A;
+}
+.unlisted-business{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #4A4A4A;
+  line-height: 1.5;
+}
+.italic{
+  font-style: italic;
+}
+.business-paragraph3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #4A4A4A;
+}
+.business-paragraph5{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
