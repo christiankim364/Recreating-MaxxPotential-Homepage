@@ -1,0 +1,196 @@
+.business-flex-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 550px;
+  justify-content: space-evenly;
+}
+.business-column-left{
+  display: flex;
+  flex-direction: column;
+  width: 40%;    
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+.business-column-right{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-image: url("../images/apprentice-background.jpg");
+  background-size: 1000px 650px;
+  background-position: 50% 50%; 
+  border-bottom-left-radius: 650px;
+  background-repeat: no-repeat;
+}
+.business-header{
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+.business-paragraph{
+  font-size: 32.5px;
+  font-family: 'Arial';
+  color: #4A4A4A;
+  font-weight: bold;
+  width: 350px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.apprentice-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.apprentice-column{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 1000px;
+}
+.who-makes-yt{
+  display: flex;
+  flex-direction: row;
+  width: 890px;
+  height: 600px;
+}
+.bigger-header{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A4A4A;
+  font-size: 40px;
+  font-weight: bold;
+}
+.apprentice-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.apprentice-column2{
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+.unique-benefits-p{
+  padding-left: 36px;
+}
+.inside-column2{
+  width: 348px;
+  height: 225px;
+}
+.bigger-header2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A4A4A;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 58px;
+  margin-bottom: 20px;
+}
+.bigger-header3{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 58px;
+  margin-bottom: 20px;
+}
+.inside-p{
+  color: white;
+  padding-top: 112px;
+  padding-right: 95px;
+}
+.paid-apprenticeship{
+  color: white;
+  padding-top: 215px;
+}
+.post-apprenticeship{
+  color: white;
+  padding-top: 240px;
+}
+
+.inside-p2-1{
+  color: white;
+  padding-top: 105px;
+}
+.inside-p2-2{
+  color: white;
+  padding-top: 75px;
+}
+.inside-p2-3{
+  color: white;
+  padding-top: 30px;  
+}
+.how-works-container{
+  margin-top: 50px;
+  padding-top: 20px;
+  background-color: #40403F;
+  height: 0px;
+}
+.apprentice-container3{
+  background-color: #40403F;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+}
+.apprentice-column3-left{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 90%;
+  align-items: center;
+}
+
+.apprentice-column3-right{
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  height: 100%;
+}
+.listed{
+  font-size: 18px;
+}
+.unlisted{
+  font-size: 18px;
+}
+
+.apprentice-container4{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+}
+.apprentice-column-left4{
+  display: flex;
+  flex-direction: column;
+  padding-left: 105px;
+}
+.apprentice-column-right4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 175px;
+  width: 60%;
+}
+.authenticity{
+  padding-top: 50px;
+}
+.maxx-5{
+  padding-bottom: 117px;
+}
+.looking-for{
+  margin-top: 40px;
+  padding-left: 60px;
+}
+.apprentice-paragraph2{
+  font-family: 'Times New Roman', Times, serif;
+  color: #4A4A4A;
+  font-size: 20px;
+  line-height: 1.5;
+}
