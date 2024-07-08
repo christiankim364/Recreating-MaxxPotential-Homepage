@@ -1,0 +1,39 @@
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 645px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+.left-column{
+  display: flex;
+  flex-direction: column;
+  min-height: 460px;
+}
+.right-column{
+  display: flex;
+  flex-direction: column;
+}
+.doodle-image{
+  max-width: 130px;
+  max-width: 20%
+}
+.right-column-image{
+  max-width: 600px;
+}
+.learn-paragraph{
+  color: #4A4A4A;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.for-paragraph{
+ color: #4A4A4A;
+ font-family: Arial;
+ font-weight: bold;
+ font-size: 30px; 
+ margin-top: 15px;
+ margin-bottom: 30px;
+}
