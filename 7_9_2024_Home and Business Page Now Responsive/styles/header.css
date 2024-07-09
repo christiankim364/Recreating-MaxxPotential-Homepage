@@ -1,0 +1,50 @@
+.first-element{
+  max-width: 100%;
+  min-height: 62px;
+  color: white;
+  background-color: rgb(0, 100, 200);  /* Couldn't get the exact color, can change later to fit */
+  display: flex;
+  justify-content: center; /* Add this to center text in the middle */
+  align-items: center;
+  text-decoration: none;
+}
+.first-element a{
+  color: white; /*Makes apply here link white, not blue, text-decoration: none don't add it, removes the underline*/
+}
+.first-element-paragraph{
+  font: Arial;
+  font-size: 22px;
+}
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  min-height: 100px;
+  background-color: white; 
+  box-shadow: 3px 3px 3px rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+.navigation-bar a{ /*add a to target both navigation bar and "a" element*, text-decoration: none wont work other*/
+  text-decoration: none;
+  font-size: 23px;
+  color: rgb(84, 84, 84);
+  padding-right: 20px;
+}
+
+.navigation-bar a:hover{ /*When you hover over a nav link, a red line should be under*/ 
+ text-decoration: underline; /* border-bottom: 1px; This doesn't work, googled how to do it. Have to use text-decoration: underline  */
+ text-decoration-color: red; /*Googled how to add text-decoration color*/
+ text-underline-offset: 16px; /*Adds space between word/underline: https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset*/
+}
+.home-image{
+  max-width: 350px;
+  margin-right: 90%;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
